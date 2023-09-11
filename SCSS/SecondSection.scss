@@ -1,0 +1,82 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/CSS/Poppins-Black.ttf);
+  }
+
+  h1{
+    font-family: myFirstFont;
+    text-decoration: underline;
+  }
+.SecondSection{
+    font-family: myFirstFont;
+    margin-top: 50px;
+    width: 100%;
+    height:500px;
+    //background-color: darkblue;
+}
+
+
+.sub_section1{
+    float: right;
+    width: 800px;
+    height: 500px;
+    //background-color: red;
+
+    }
+    
+    .sub_section2{
+        width: 800px;
+    height: 500px;
+    //background-color: darkcyan;
+    color: black;
+    
+    }
+
+
+    .sub_section_content1{
+        width: 300px;
+        height: 250px;
+        margin-left: 45px;
+        background-image: url('/images/nevada-5.jpg');
+        background-position: center;
+
+    }
+
+    .sub_section_content2{
+        width: 300px;
+        height: 250px;
+        background-image: url('/images/nv_moutains.jpg');
+        margin-left: 45px;
+        background-position: center;
+
+
+    }
+
+    .box_text1{
+        width:700px;
+        height: 190px;
+        margin: 0 auto;
+        margin-top: 45px;
+        //background-color: #A2D1F0;
+        border:3px dotted #898952;
+    }
+
+    .box_text2{
+        width:700px;
+        height: 190px;
+        margin: 0 auto;
+        margin-top: 45px;
+        //background-color: #A2D1F0;
+        border:3px dotted #898952;
+    }
+
+
+    .text1{
+        color: black;
+
+    }
+
+    .text2{
+        color: black;
+    }
+

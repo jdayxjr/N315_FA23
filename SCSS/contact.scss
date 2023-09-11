@@ -1,0 +1,28 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/CSS/Poppins-Black.ttf);
+  }
+
+  h1{
+    font-family: myFirstFont;
+    text-decoration: underline;
+  }
+
+.contact_content{
+    margin: 0 auto;
+    font-family: myFirstFont;
+    margin-top: 50px;
+    width: 100%;
+    height:500px;
+    //background-color: darkblue;
+}
+
+ .contact_box{
+    width: 600px;
+    height: 300px;
+    background-color: #563F1B;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 60px;
+    color: white;
+ }

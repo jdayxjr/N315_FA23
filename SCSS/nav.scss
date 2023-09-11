@@ -1,0 +1,51 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+/* Add a black background color to the top navigation */
+nav {
+  font-family: myFirstFont;
+  background-color: #898952;
+  width: 100%;
+  height: 75px;
+
+}
+
+nav h3{
+    color: white;
+    float: left;
+align-items: center;
+align-self: center;
+align-content: center;
+
+}
+
+/* Style the links inside the navigation bar */
+nav li {
+  float: left;
+  display: block;
+  text-align: center;
+  
+}
+
+nav li a{
+    color: #f2f2f2;
+    display: block;
+    //Padding is used to create space around an element's content, inside of any defined borders. padding: top right bottom left;
+    padding: 19px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color:white;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+

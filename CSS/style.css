@@ -1,0 +1,219 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+/* Add a black background color to the top navigation */
+nav {
+  font-family: myFirstFont;
+  background-color: #898952;
+  width: 100%;
+  height: 75px;
+}
+
+nav h3 {
+  color: white;
+  float: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+/* Style the links inside the navigation bar */
+nav li {
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+nav li a {
+  color: #f2f2f2;
+  display: block;
+  padding: 19px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.head_banner {
+  width: 100%;
+  height: 500px;
+  background-image: url("/images/nevada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+h1 {
+  font-family: myFirstFont;
+  text-decoration: underline;
+}
+
+.SecondSection {
+  font-family: myFirstFont;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+.sub_section1 {
+  float: right;
+  width: 800px;
+  height: 500px;
+}
+
+.sub_section2 {
+  width: 800px;
+  height: 500px;
+  color: black;
+}
+
+.sub_section_content1 {
+  width: 300px;
+  height: 250px;
+  margin-left: 45px;
+  background-image: url("/images/nevada-5.jpg");
+  background-position: center;
+}
+
+.sub_section_content2 {
+  width: 300px;
+  height: 250px;
+  background-image: url("/images/nv_moutains.jpg");
+  margin-left: 45px;
+  background-position: center;
+}
+
+.box_text1 {
+  width: 700px;
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 3px dotted #898952;
+}
+
+.box_text2 {
+  width: 700px;
+  height: 190px;
+  margin: 0 auto;
+  margin-top: 45px;
+  border: 3px dotted #898952;
+}
+
+.text1 {
+  color: black;
+}
+
+.text2 {
+  color: black;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+h1 {
+  font-family: myFirstFont;
+  text-decoration: underline;
+}
+
+.about_content {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+  background-color: darkblue;
+  font-family: myFirstFont;
+}
+
+.sub_about1 {
+  float: right;
+  width: 800px;
+  height: 500px;
+  background-image: url("/images/ranger.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.sub_about2 {
+  width: 800px;
+  height: 500px;
+  background-color: #563F1B;
+  color: white;
+}
+
+.about_text2 {
+  color: white;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+h1 {
+  font-family: myFirstFont;
+  text-decoration: underline;
+}
+
+.form_content {
+  font-family: myFirstFont;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  font: 1.25rem/1.5 sans-serif;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/CSS/Poppins-Black.ttf);
+}
+h1 {
+  font-family: myFirstFont;
+  text-decoration: underline;
+}
+
+.contact_content {
+  margin: 0 auto;
+  font-family: myFirstFont;
+  margin-top: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+.contact_box {
+  width: 600px;
+  height: 300px;
+  background-color: #563F1B;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 60px;
+  color: white;
+}
